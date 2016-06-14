@@ -1,3 +1,3 @@
 # Coding interview problems
 
-Solved problems in Python for coding interview.
+Solved coding interview problems in Python.
