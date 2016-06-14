@@ -7,9 +7,6 @@ arr = [math.floor(random.random()*100) for _ in range(N)]
 #print(arr)
 
 
-
-
-
 def partition(a,s,e):
     p = a[e]
     i = s

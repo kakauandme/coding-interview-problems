@@ -6,7 +6,6 @@ N = 1000
 arr = [math.floor(random.random()*100) for _ in range(N)]
 #print(arr)
 
-
     
 def merge_sort(a):
     
