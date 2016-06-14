@@ -19,13 +19,11 @@ n = len(a)
 m = len(a[0])
 
 
-def nextStep(i,j,output):
+def nextStep(i=0,j=0,output=""):
 
 	output+=str(a[i][j])
 	if i+1 == n and j+1 == m:
 		print(output)
-		return
-
 	else:
 		output+="->"
 		if i+1 < n:
@@ -34,4 +32,4 @@ def nextStep(i,j,output):
 		if j+1 < m:
 			nextStep(i,j+1,output)
 
-nextStep(0,0,"")
+nextStep()
