@@ -17,5 +17,3 @@ def powerset(elements):
 
 for s in powerset(input):
 	print(s)
-
-
